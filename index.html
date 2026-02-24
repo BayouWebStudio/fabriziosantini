@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabrizio Santini - Actor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="lang-es" class="lang-btn active">ES</button>
+        <button id="lang-en" class="lang-btn">EN</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Fabrizio Santini</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-es="Acerca" data-en="About">Acerca</a></li>
+                <li class="nav-item"><a href="#filmography" class="nav-link" data-es="Filmografía" data-en="Filmography">Filmografía</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link" data-es="Galería" data-en="Gallery">Galería</a></li>
+                <li class="nav-item"><a href="#press" class="nav-link" data-es="Prensa" data-en="Press">Prensa</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Fabrizio Santini</h1>
+            <p class="hero-subtitle" data-es="Actor" data-en="Actor">Actor</p>
+            <p class="hero-quote" data-es="&quot;El arte de actuar es encontrar la verdad en cada personaje&quot;" data-en="&quot;The art of acting is finding truth in every character&quot;">"El arte de actuar es encontrar la verdad en cada personaje"</p>
+            <div class="hero-cta">
+                <a href="#about" class="cta-btn" data-es="Conoce mi historia" data-en="Discover my story">Conoce mi historia</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-es="Mi Historia" data-en="My Story">Mi Historia</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="lang-content" data-lang="es">
+                        <p class="about-intro">Nacido el 10 de septiembre de 1994, Fabrizio Santini pertenece a una dinastía de artistas que han dejado huella en el entretenimiento mexicano. Hijo de la actriz Love Santini, sobrino de la reconocida Loretta Santini y hermano del talentoso Brandon Santini, el arte corre por sus venas como un legado familiar.</p>
+                        
+                        <p>Su viaje comenzó temprano, a los 8 años, cuando incursionó en el mundo del doblaje en 2002. Pero fue en 2007 cuando su voz cobró vida al interpretar a Leo San Juan, el valiente protagonista de "La leyenda de la Nahuala", marcando el inicio de una carrera que combinaría su pasión por la actuación con su talento natural para dar vida a personajes memorables.</p>
+                        
+                        <p>El punto de inflexión llegó en 2014 con "Sopladora de Hojas", dirigida por Alejandro Iglesias Mendizábal, donde interpretó a Lucas, su primer papel protagónico en cine. Esta actuación no solo le valió una nominación al prestigioso Premio Ariel en 2016, sino que también estableció su credibilidad como actor dramático.</p>
+                        
+                        <p>Pero Fabrizio es un artista multifacético. Su amor por la comedia lo llevó al mundo del stand-up, donde desarrolló su propio estilo único. Esta pasión lo inspiró a crear "El Baúl de Cuentos Mágicos de Güido y Crispín", un innovador show teatral que combina cuentos fantásticos con su característico humor.</p>
+                        
+                        <p>Su versatilidad se ha demostrado en producciones de alto perfil como "Narcos: México" (2018), "Señora Acero" en Telemundo, y más recientemente como Fish en la exitosa serie original de Amazon Prime "Cómo Sobrevivir Soltero", que lo ha consolidado como una de las voces más frescas de la comedia mexicana contemporánea.</p>
+                    </div>
+                    
+                    <div class="lang-content" data-lang="en" style="display: none;">
+                        <p class="about-intro">Born on September 10, 1994, Fabrizio Santini belongs to a dynasty of artists who have left their mark on Mexican entertainment. Son of actress Love Santini, nephew of renowned Loretta Santini, and brother of talented Brandon Santini, art flows through his veins as a family legacy.</p>
+                        
+                        <p>His journey began early, at age 8, when he ventured into voice acting in 2002. But it was in 2007 when his voice came alive portraying Leo San Juan, the brave protagonist of "La leyenda de la Nahuala," marking the beginning of a career that would combine his passion for acting with his natural talent for bringing memorable characters to life.</p>
+                        
+                        <p>The turning point came in 2014 with "Leaf Blower" (Sopladora de Hojas), directed by Alejandro Iglesias Mendizábal, where he played Lucas, his first leading film role. This performance not only earned him a nomination for the prestigious Ariel Award in 2016 but also established his credibility as a dramatic actor.</p>
+                        
+                        <p>But Fabrizio is a multifaceted artist. His love for comedy led him to the world of stand-up, where he developed his own unique style. This passion inspired him to create "El Baúl de Cuentos Mágicos de Güido y Crispín," an innovative theatrical show that combines fantastic tales with his characteristic humor.</p>
+                        
+                        <p>His versatility has been demonstrated in high-profile productions like "Narcos: Mexico" (2018), "Lady of Steel" on Telemundo, and most recently as Fish in Amazon Prime's successful original series "How to Survive Being Single," which has established him as one of the freshest voices in contemporary Mexican comedy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filmography Section -->
+    <section id="filmography" class="filmography">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-es="Filmografía" data-en="Filmography">Filmografía</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="filmography-tabs">
+                <button class="tab-btn active" data-tab="all" data-es="Todo" data-en="All">Todo</button>
+                <button class="tab-btn" data-tab="film" data-es="Cine" data-en="Film">Cine</button>
+                <button class="tab-btn" data-tab="tv" data-es="Televisión" data-en="Television">Televisión</button>
+                <button class="tab-btn" data-tab="voice" data-es="Doblaje" data-en="Voice Acting">Doblaje</button>
+            </div>
+
+            <div class="filmography-grid">
+                <!-- Recent Works -->
+                <div class="film-item" data-category="tv" data-year="2024">
+                    <div class="film-year">2024</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Un mundo para mí</h3>
+                        <p class="film-role" data-es="Rodrigo" data-en="Rodrigo">Rodrigo</p>
+                        <p class="film-type" data-es="Serie de TV" data-en="TV Series">Serie de TV</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="film" data-year="2024">
+                    <div class="film-year">2024</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Cinco Minutos que le Arruinaron la Noche a Carlos</h3>
+                        <p class="film-role" data-es="Carlos" data-en="Carlos">Carlos</p>
+                        <p class="film-type" data-es="Cortometraje" data-en="Short Film">Cortometraje</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2023">
+                    <div class="film-year">2023</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Candy Cruz</h3>
+                        <p class="film-role" data-es="Manolo" data-en="Manolo">Manolo</p>
+                        <p class="film-type" data-es="Miniserie" data-en="Mini Series">Miniserie</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2023">
+                    <div class="film-year">2023</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Archivo Muerto</h3>
+                        <p class="film-role" data-es="Javi" data-en="Javi">Javi</p>
+                        <p class="film-type" data-es="Serie de TV" data-en="TV Series">Serie de TV</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2020-2023">
+                    <div class="film-year">2020-2023</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Cómo Sobrevivir Soltero / How to Survive Being Single</h3>
+                        <p class="film-role" data-es="Fish (26 episodios)" data-en="Fish (26 episodes)">Fish (26 episodios)</p>
+                        <p class="film-type" data-es="Serie Original Amazon Prime" data-en="Amazon Prime Original Series">Serie Original Amazon Prime</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2022">
+                    <div class="film-year">2022</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Travelers: Lost in Time / Viajeros</h3>
+                        <p class="film-role" data-es="Chuchoflais" data-en="Chuchoflais">Chuchoflais</p>
+                        <p class="film-type" data-es="Película" data-en="Film">Película</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="film" data-year="2021">
+                    <div class="film-year">2021</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Bankrolled</h3>
+                        <p class="film-role" data-es="Aderales" data-en="Aderales">Aderales</p>
+                        <p class="film-type" data-es="Película" data-en="Film">Película</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2019">
+                    <div class="film-year">2019</div>
+                    <div class="film-info">
+                        <h3 class="film-title">La Bandida</h3>
+                        <p class="film-role" data-es="Miguel Delgado (11 episodios)" data-en="Miguel Delgado (11 episodes)">Miguel Delgado (11 episodios)</p>
+                        <p class="film-type" data-es="Serie de TV" data-en="TV Series">Serie de TV</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2018">
+                    <div class="film-year">2018</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Narcos: México</h3>
+                        <p class="film-role" data-es="Javier Contreras" data-en="Javier Contreras">Javier Contreras</p>
+                        <p class="film-type" data-es="Serie de TV (Netflix)" data-en="TV Series (Netflix)">Serie de TV (Netflix)</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="tv" data-year="2018">
+                    <div class="film-year">2018</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Señora Acero / Lady of Steel</h3>
+                        <p class="film-role" data-es="Rogelio Antolin (8 episodios)" data-en="Rogelio Antolin (8 episodes)">Rogelio Antolin (8 episodios)</p>
+                        <p class="film-type" data-es="Serie de TV (Telemundo)" data-en="TV Series (Telemundo)">Serie de TV (Telemundo)</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="film" data-year="2015">
+                    <div class="film-year">2015</div>
+                    <div class="film-info">
+                        <h3 class="film-title">Sopladora de Hojas / Leaf Blower</h3>
+                        <p class="film-role" data-es="Lucas (Protagonista)" data-en="Lucas (Lead Role)">Lucas (Protagonista)</p>
+                        <p class="film-type" data-es="Película • Nominado al Ariel 2016" data-en="Film • Ariel Award Nominee 2016">Película • Nominado al Ariel 2016</p>
+                        <p class="film-director" data-es="Dir. Alejandro Iglesias Mendizábal" data-en="Dir. Alejandro Iglesias Mendizábal">Dir. Alejandro Iglesias Mendizábal</p>
+                    </div>
+                </div>
+
+                <!-- Voice Acting -->
+                <div class="film-item" data-category="voice" data-year="2007">
+                    <div class="film-year">2007</div>
+                    <div class="film-info">
+                        <h3 class="film-title">La leyenda de la Nahuala</h3>
+                        <p class="film-role" data-es="Leo San Juan (voz)" data-en="Leo San Juan (voice)">Leo San Juan (voz)</p>
+                        <p class="film-type" data-es="Película de Animación" data-en="Animated Film">Película de Animación</p>
+                    </div>
+                </div>
+
+                <div class="film-item" data-category="voice" data-year="2004">
+                    <div class="film-year">2004</div>
+                    <div class="film-info">
+                        <h3 class="film-title">The Polar Express / El Expreso Polar</h3>
+                        <p class="film-role" data-es="Doblaje (Versión Latinoamericana)" data-en="Voice Acting (Latin American Version)">Doblaje (Versión Latinoamericana)</p>
+                        <p class="film-type" data-es="Película de Animación" data-en="Animated Film">Película de Animación</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-es="Galería" data-en="Gallery">Galería</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWEtMzFmZS00OTRjLWJlODktYWZjZGUyZjA2ZGU0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Fabrizio Santini - Cómo Sobrevivir Soltero">
+                    <div class="gallery-overlay">
+                        <p data-es="Cómo Sobrevivir Soltero - Amazon Prime" data-en="How to Survive Being Single - Amazon Prime">Cómo Sobrevivir Soltero - Amazon Prime</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMjExMzEyNTItNWVhMS00NzE2LTk5ZWYtYjFjYjhlN2E2YjdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Leaf Blower - Sopladora de Hojas">
+                    <div class="gallery-overlay">
+                        <p data-es="Sopladora de Hojas (2015)" data-en="Leaf Blower (2015)">Sopladora de Hojas (2015)</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjQ2NzA2ZDctZWYyMy00NWRjLTk5NzEtNDUyN2M3ZWI3MzEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Narcos Mexico">
+                    <div class="gallery-overlay">
+                        <p data-es="Narcos: México - Netflix" data-en="Narcos: Mexico - Netflix">Narcos: México - Netflix</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press Section -->
+    <section id="press" class="press">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-es="Prensa y Medios" data-en="Press & Media">Prensa y Medios</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="press-grid">
+                <article class="press-item">
+                    <h3 class="press-title" data-es="La Oficina sigue creciendo con Fabrizio Santini" data-en="The Office continues growing with Fabrizio Santini">La Oficina sigue creciendo con Fabrizio Santini</h3>
+                    <p class="press-source">The Hollywood Reporter</p>
+                    <p class="press-date">Noviembre 2025</p>
+                    <p class="press-excerpt lang-content" data-lang="es">Fabrizio Santini se une al reparto de la adaptación mexicana de The Office, aportando su experiencia en comedia a esta esperada producción.</p>
+                    <p class="press-excerpt lang-content" data-lang="en" style="display: none;">Fabrizio Santini joins the cast of the Mexican adaptation of The Office, bringing his comedy experience to this highly anticipated production.</p>
+                </article>
+                
+                <article class="press-item">
+                    <h3 class="press-title" data-es="Nominación al Ariel por Sopladora de Hojas" data-en="Ariel Award Nomination for Leaf Blower">Nominación al Ariel por Sopladora de Hojas</h3>
+                    <p class="press-source">Academia Mexicana de Artes y Ciencias Cinematográficas</p>
+                    <p class="press-date">2016</p>
+                    <p class="press-excerpt lang-content" data-lang="es">Su actuación como Lucas en "Sopladora de Hojas" le valió una nominación al prestigioso Premio Ariel, consolidando su carrera cinematográfica.</p>
+                    <p class="press-excerpt lang-content" data-lang="en" style="display: none;">His performance as Lucas in "Leaf Blower" earned him a nomination for the prestigious Ariel Award, consolidating his film career.</p>
+                </article>
+
+                <article class="press-item">
+                    <h3 class="press-title" data-es="El éxito de 'Cómo Sobrevivir Soltero' en Amazon Prime" data-en="The success of 'How to Survive Being Single' on Amazon Prime">El éxito de 'Cómo Sobrevivir Soltero' en Amazon Prime</h3>
+                    <p class="press-source">Variety</p>
+                    <p class="press-date">2022</p>
+                    <p class="press-excerpt lang-content" data-lang="es">La serie original de Amazon Prime se ha convertido en un fenómeno, con Fabrizio interpretando al memorable personaje de Fish a lo largo de 26 episodios.</p>
+                    <p class="press-excerpt lang-content" data-lang="en" style="display: none;">The Amazon Prime original series has become a phenomenon, with Fabrizio playing the memorable character Fish throughout 26 episodes.</p>
+                </article>
+            </div>
+            
+            <!-- Media/Reel Section -->
+            <div class="media-section">
+                <h3 class="media-title" data-es="Demo Reel y Videos" data-en="Demo Reel & Videos">Demo Reel y Videos</h3>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/2102182681" title="How to Survive Being Single - Trailer" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-es="Contacto y Representación" data-en="Contact & Representation">Contacto y Representación</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 data-es="Representación Profesional" data-en="Professional Representation">Representación Profesional</h3>
+                        <p><strong>Talent On The Road</strong></p>
+                        <p>Agencia de Talentos</p>
+                        <p>@talentontheroad</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3 data-es="Stand-Up y Teatro" data-en="Stand-Up & Theater">Stand-Up y Teatro</h3>
+                        <p><strong>Clandestino Open Mic</strong></p>
+                        <p>@clandestinoopenmic</p>
+                        <p data-es="Show: 'El Baúl de Cuentos Mágicos de Güido y Crispín'" data-en="Show: 'El Baúl de Cuentos Mágicos de Güido y Crispín'">Show: "El Baúl de Cuentos Mágicos de Güido y Crispín"</p>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h3 data-es="Sígueme en Redes Sociales" data-en="Follow Me on Social Media">Sígueme en Redes Sociales</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/aquelsantini/" target="_blank" class="social-icon instagram">
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://twitter.com/aquelsantini" target="_blank" class="social-icon twitter">
+                            <span>Twitter</span>
+                        </a>
+                        <a href="https://www.imdb.com/name/nm2773250/" target="_blank" class="social-icon imdb">
+                            <span>IMDb</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Fabrizio Santini. <span data-es="Todos los derechos reservados." data-en="All rights reserved.">Todos los derechos reservados.</span></p>
+            <p class="footer-credit">Website by <a href="#" target="_blank">Bayou Web Studios</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
